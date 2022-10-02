@@ -213,7 +213,7 @@ function changeData(response, response2) {
   console.log(todaysarr);
   console.log(days);
   currenttempEl.innerHTML = `
-<img src="https://openweathermap.org/img/wn/${
+<img src="http://openweathermap.org/img/wn/${
     response2.daily[todaysarr[0]].weather[0].icon
   }@2x.png" alt="weather icon" class="w-icon">
 <div class="other">
@@ -230,7 +230,7 @@ function changeData(response, response2) {
   weatherForcastEl.innerHTML = `
 <div class="weather-forecast-item">
                 <div class="day">${days[todaysarr[1]]}</div>
-                <img src="https://openweathermap.org/img/wn/${
+                <img src="http://openweathermap.org/img/wn/${
                   response2.daily[todaysarr[1]].weather[0].icon
                 }@2x.png" alt="weather icon" class="w-icon">
                 <div class="temp">Night -  ${
@@ -242,7 +242,7 @@ function changeData(response, response2) {
             </div>
             <div class="weather-forecast-item">
                 <div class="day">${days[todaysarr[2]]}</div>
-                <img src="https://openweathermap.org/img/wn/${
+                <img src="http://openweathermap.org/img/wn/${
                   response2.daily[todaysarr[2]].weather[0].icon
                 }@2x.png" alt="weather icon" class="w-icon">
                 <div class="temp">Night - ${
@@ -254,7 +254,7 @@ function changeData(response, response2) {
             </div>
             <div class="weather-forecast-item">
                 <div class="day">${days[todaysarr[3]]}</div>
-                <img src="https://openweathermap.org/img/wn/${
+                <img src="http://openweathermap.org/img/wn/${
                   response2.daily[todaysarr[3]].weather[0].icon
                 }@2x.png" alt="weather icon" class="w-icon">
                 <div class="temp">Night - ${
@@ -266,7 +266,7 @@ function changeData(response, response2) {
             </div>
             <div class="weather-forecast-item">
                 <div class="day">${days[todaysarr[4]]}</div>
-                <img src="https://openweathermap.org/img/wn/${
+                <img src="http://openweathermap.org/img/wn/${
                   response2.daily[todaysarr[4]].weather[0].icon
                 }@2x.png" alt="weather icon" class="w-icon">
                 <div class="temp">Night - ${
@@ -278,7 +278,7 @@ function changeData(response, response2) {
             </div>
             <div class="weather-forecast-item">
                 <div class="day">${days[todaysarr[5]]}</div>
-                <img src="https://openweathermap.org/img/wn/${
+                <img src="http://openweathermap.org/img/wn/${
                   response2.daily[todaysarr[5]].weather[0].icon
                 }@2x.png" alt="weather icon" class="w-icon">
                 <div class="temp">Night - ${
@@ -290,7 +290,7 @@ function changeData(response, response2) {
             </div>
             <div class="weather-forecast-item">
                 <div class="day">${days[todaysarr[6]]}</div>
-                <img src="https://openweathermap.org/img/wn/${
+                <img src="http://openweathermap.org/img/wn/${
                   response2.daily[todaysarr[6]].weather[0].icon
                 }@2x.png" alt="weather icon" class="w-icon">
                 <div class="temp">Night - ${
