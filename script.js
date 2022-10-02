@@ -67,7 +67,7 @@ function getWeather() {
   var city = cityName;
   var units = "m";
   fetch(
-    "https://api.weatherstack.com/current?access_key=302d972eb0f78c44f63a28e18417fc38&query=" +
+    "http://api.weatherstack.com/current?access_key=302d972eb0f78c44f63a28e18417fc38&query=" +
       city +
       "&units=" +
       units
